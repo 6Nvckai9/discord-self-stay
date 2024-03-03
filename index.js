@@ -29,7 +29,7 @@ client.on("ready", async () => {
 		});   
     
 const r = new RichPresence() 
-	.setApplicationId('1213805890575278101 ')
+	.setApplicationId('1213729004301852722')
 	.setType('PLAYING')
 	.setURL('https://www.twitch.tv/discord')
 	.setState('Amanda')
