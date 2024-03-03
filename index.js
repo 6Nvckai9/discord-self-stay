@@ -15,7 +15,7 @@ client.on("ready", async () => {
   client.user.setHypeSquad('HOUSE_BRILLIANCE');
   client.user.setPresence({ activities: [r],});
 	const {joinVoiceChannel} = require('@discordjs/voice');
-	const channel = client.channels.cache.get("Your Voice Channels ID"); // voice channel's id
+	const channel = client.channels.cache.get("1213801364866596884"); // voice channel's id
 	if (!channel) return console.log("The channel does not exist !");
 	setInterval(() => {
 			const connection = joinVoiceChannel({
@@ -29,20 +29,14 @@ client.on("ready", async () => {
 		});   
     
 const r = new RichPresence() 
-	.setApplicationId('1159018870401675276')
+	.setApplicationId('1213805890575278101 ')
 	.setType('PLAYING')
-	.setURL('link')
-	.setState('Set State')
-	.setName('Set Name')
-	.setDetails('Set Details')
-	.setParty({
-		max: 5,
-		current: 3,
-		id: getUUID(),
-	})
+	.setURL('https://www.twitch.tv/discord')
+	.setState('890897404')
+	.setName('Genshin Impact')
+	.setDetails('Amanda')
 	.setStartTimestamp(Date.now())
-	.setAssetsLargeImage('Assets ID')
-	.setAssetsLargeText('Set Description Assets')
-	.addButton('Custom Button', 'Button Link')
+	.setAssetsLargeImage('https://media.discordapp.net/attachments/1079316964608065566/1213041878207954955/GABwR-yXMAAGerK.jpg_large.jpg?ex=65f40848&is=65e19348&hm=cbb89feda92ab1989c7755d6f79b0e1ed5ea0386f00d4d94b8f845e0c633a379&')
 
 client.login(process.env.TOKEN)
+
