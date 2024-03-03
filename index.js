@@ -32,9 +32,9 @@ const r = new RichPresence()
 	.setApplicationId('1213729004301852722')
 	.setType('PLAYING')
 	.setURL('https://www.twitch.tv/discord')
-	.setState('Amanda')
+	.setState('890897404')
 	.setName('Genshin Impact')
-	.setDetails('890897404')
+	.setDetails('Amanda')
 	.setParty({
 		max: 5,
 		current: 3,
