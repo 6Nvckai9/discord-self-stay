@@ -29,7 +29,7 @@ client.on("ready", async () => {
 		});   
     
 const r = new RichPresence() 
-	.setApplicationId('1213729004301852722')
+	.setApplicationId('1215620258669273118')
 	.setType('PLAYING')
 	.setURL('https://youtube.com/@avengedsevenfold?si=eMw6e52kY_PkiuKR')
 	.setState('890897404')
