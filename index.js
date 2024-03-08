@@ -36,8 +36,8 @@ const r = new RichPresence()
 	.setName('Genshin Impact')
 	.setDetails('Amanda')
 	.setParty({
-		max: 6,
-		current: 9,
+		max: 9,
+		current: 6,
 		id: getUUID(),
 	})
 	.setStartTimestamp(Date.now())
