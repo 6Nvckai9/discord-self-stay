@@ -36,7 +36,7 @@ const r = new RichPresence()
 	.setName('Genshin Impact')
 	.setDetails('Amanda')
 	.setParty({
-		max: 4,
+		max: 1,
 		current: 1,
 		id: getUUID(),
 	})
