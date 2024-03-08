@@ -31,13 +31,13 @@ client.on("ready", async () => {
 const r = new RichPresence() 
 	.setApplicationId('1213729004301852722')
 	.setType('PLAYING')
-	.setURL('https://www.twitch.tv/discord')
+	.setURL('https://youtube.com/@avengedsevenfold?si=eMw6e52kY_PkiuKR')
 	.setState('890897404')
 	.setName('Genshin Impact')
 	.setDetails('Amanda')
 	.setParty({
-		max: 5,
-		current: 3,
+		max: 6,
+		current: 9,
 		id: getUUID(),
 	})
 	.setStartTimestamp(Date.now())
