@@ -43,6 +43,6 @@ const r = new RichPresence()
 	.setStartTimestamp(Date.now())
 	.setAssetsLargeImage('https://media.discordapp.net/attachments/1079316964608065566/1213041878207954955/GABwR-yXMAAGerK.jpg_large.jpg?ex=65f40848&is=65e19348&hm=cbb89feda92ab1989c7755d6f79b0e1ed5ea0386f00d4d94b8f845e0c633a379&')
 	.setAssetsLargeText('Furina')
-	.addButton('Genshin Profile', 'https://enka.network/u/890897404/')
+	.addButton('Genshin', 'https://enka.network/u/890897404/')
 
 client.login(process.env.TOKEN)
