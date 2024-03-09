@@ -32,9 +32,9 @@ const r = new RichPresence()
 	.setApplicationId('1215620258669273118')
 	.setType('LISTENING')
 	.setURL('https://youtube.com/@avengedsevenfold?si=eMw6e52kY_PkiuKR')
-	.setState('')
+	.setState('💀')
 	.setName('Avenged Sevenfold')
-	.setDetails('')
+	.setDetails('Life Is But a Dream')
 	.setParty({
 		max: 1,
 		current: 1,
