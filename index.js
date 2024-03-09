@@ -36,8 +36,8 @@ const r = new RichPresence()
 	.setName('Avenged Sevenfold')
 	.setDetails('')
 	.setParty({
-		max: 1,
-		current: 5,
+		max: 5,
+		current: 1,
 		id: getUUID(),
 	})
 	.setStartTimestamp(Date.now())
