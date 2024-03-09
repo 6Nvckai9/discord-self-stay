@@ -30,19 +30,18 @@ client.on("ready", async () => {
     
 const r = new RichPresence() 
 	.setApplicationId('1215620258669273118')
-	.setType('PLAYING')
+	.setType('LISTENING')
 	.setURL('https://youtube.com/@avengedsevenfold?si=eMw6e52kY_PkiuKR')
-	.setState('890897404')
-	.setName('Genshin Impact')
-	.setDetails('Amanda')
+	.setState('')
+	.setName('Avenged Sevenfold')
+	.setDetails('')
 	.setParty({
 		max: 1,
-		current: 1,
+		current: 5,
 		id: getUUID(),
 	})
 	.setStartTimestamp(Date.now())
-	.setAssetsLargeImage('https://media.discordapp.net/attachments/1079316964608065566/1213041878207954955/GABwR-yXMAAGerK.jpg_large.jpg?ex=65f40848&is=65e19348&hm=cbb89feda92ab1989c7755d6f79b0e1ed5ea0386f00d4d94b8f845e0c633a379&')
-	.setAssetsLargeText('Furina')
-	.addButton('Genshin', 'https://enka.network/u/890897404/')
+	.setAssetsLargeImage('https://media.discordapp.net/attachments/1090893989206573126/1215880501726806127/i-interchanged-the-colours-and-removed-the-background-off-v0-o9ghvjhn73ob1.png?ex=65fe5bf5&is=65ebe6f5&hm=83ab4f83ef30e030563bac04a82bfcbe76b0aa173ad055f6e51b15b18a05bca7&')
+	.setAssetsLargeText('Sevenfoldism')
 
 client.login(process.env.TOKEN)
