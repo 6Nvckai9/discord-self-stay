@@ -36,7 +36,7 @@ const r = new RichPresence()
 	.setName('Avenged Sevenfold')
 	.setDetails('')
 	.setParty({
-		max: 5,
+		max: 1,
 		current: 1,
 		id: getUUID(),
 	})
