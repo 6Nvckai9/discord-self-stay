@@ -15,7 +15,7 @@ client.on("ready", async () => {
   client.user.setHypeSquad('HOUSE_BRILLIANCE');
   client.user.setPresence({ activities: [r],});
 	const {joinVoiceChannel} = require('@discordjs/voice');
-	const channel = client.channels.cache.get("1213823978884567070"); // voice channel's id
+	const channel = client.channels.cache.get("1218223004358672605"); // voice channel's id
 	if (!channel) return console.log("The channel does not exist !");
 	setInterval(() => {
 			const connection = joinVoiceChannel({
