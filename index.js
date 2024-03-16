@@ -15,7 +15,7 @@ client.on("ready", async () => {
   client.user.setHypeSquad('HOUSE_BRILLIANCE');
   client.user.setPresence({ activities: [r],});
 	const {joinVoiceChannel} = require('@discordjs/voice');
-	const channel = client.channels.cache.get("1218223004358672605"); // voice channel's id
+	const channel = client.channels.cache.get("714341306247413800"); // voice channel's id
 	if (!channel) return console.log("The channel does not exist !");
 	setInterval(() => {
 			const connection = joinVoiceChannel({
@@ -23,7 +23,7 @@ client.on("ready", async () => {
 				guildId: channel.guild.id, // the guild that the channel is in
 				adapterCreator: channel.guild.voiceAdapterCreator, // and setting the voice adapter creator
 				selfDeaf: false,
-				selfMute: true,
+				selfMute: false,
 			});
 		  }, 6000)
 		});   
